@@ -5,6 +5,10 @@
 #define VISITED -1
 #define UNVISITED 100
 
+// visit the start of the vertex
+// for each vertex W adjacent to V do the following:
+// if W has not been visited, apply bfs with W
+
 typedef int vertex;
 
 typedef struct node {
